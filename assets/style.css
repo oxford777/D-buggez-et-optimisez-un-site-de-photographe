@@ -354,3 +354,10 @@ input[type="submit"] {
 	}
 }
 
+.tags-bar .active-tag{
+	background-color: #BEB45A;
+	color: #ffffff;
+}
+
+
+
