@@ -64,9 +64,9 @@
 </head>
 
 <body>
-<div class="top-header">
+<header class="top-header">
 	<h1 class="name">Nina Carducci</h1>
-	<div class="nav">   
+	<nav class="nav">   
 		<ul>
 			<li><a href="#about">À propos</a></li>
 			<li><a href="#gallery">Galerie</a></li>
@@ -74,9 +74,10 @@
 			<li><a href="#contact">Contact</a></li>
 			<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img src="assets/images/instagram.webp" alt="pictogramme instagram" loading="lazy" decoding="async"></a></li>
 		</ul>
-	</div>
-</div>
-<div id="header">
+	</nav>
+</header>
+
+<main id="header">
 
 	<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
 		<div class="carousel-indicators">
@@ -95,28 +96,28 @@
 				<img src="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.webp" class="d-block w-100" alt="un couple de marié enlassé qui s'embrasse" width="1521" height="703">
 			</div>
 		</div>
-		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+	
+		<div class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
 			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-			<span class="visually-hidden">Previous</span>
-		</button>
-		<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-			<span class="carousel-control-next-icon" aria-hidden="true"></span>
-			<span class="visually-hidden">Next</span>
-		</button>
+		</div>
+		<div class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>	
+		</div>
 	</div>
-</div>
-<div id="about">
+
+<section id="about">
 	<div class="picture left">
 		<img src="./assets/images/nina.webp" width="427" height="426" alt="portrait de Nina Carducci, photographe professionnelle" loading="lazy" decoding="async">
 	</div>
-	<div id="about-me">
+	<article id="about-me">
 		<h2 class="about-me__title">A propos de moi</h2>
 		<p class="about-me__introduction">Devenir photographe était pour moi une évidence. Comme si j’y étais prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer.</p>
 		<p class="about-me_text">Nous passons notre vie à chercher le bonheur, et lorsque nous y touchons, nous n’avons qu’une envie : le figer au travers de photographies pour le savourer avec les personnes qui sont importantes à nos yeux, ou le partager au plus grand nombre.
 			C’est ce que je vous propose : saisir ces merveilleux moments au travers de mon regard, mon approche, ma technique. Rendre ces moments immortels, afin que vous puissiez y puiser de l’amour, du bonheur, de la tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.</p>
-	</div>
-</div>
-<div id="gallery">
+		</article>
+</section>
+
+<section id="gallery">
 	<h2 class="title">Portfolio</h2>
 	<div class="container py-3">
 		<div class="gallery" style="display: none">
@@ -139,43 +140,43 @@
 			<figcaption class="quote__author">- Richard Avedon</figcaption>
 		</figure>
 	</div>
-</div>
-<div id="services">
+</section>
+<section id="services">
 	<h2 class="title">Mes services</h2>
 	<div class="container">
-		<div class="service">
+		<article class="service">
 			<div class="service__description">
 				<h3>Shooting photo</h3>
 				<p>Pour capturer vos moments les plus précieux et garder un souvenir impérissable. Je me déplace en Île-de-France pour réaliser vos photos</p>
 			</div>
 			<div class="service__price">
-				<p>350€/demi journée</p>
+				<h4>350€/demi journée</h4>
 				<span>Matériel, déplacement inclus</span>
 			</div>
 
-		</div>
-		<div class="service">
+		</article>
+		<article class="service">
 			<div class="service__description">
 				<h3>Retouches</h3>
 				<p>Vous souhaitez retoucher vos photos pour un résultat professionnel ? Bénéficier d’un rendu optimal pour vos publications</p>
 			</div>
 			<div class="service__price">
-				<p >50€/photo</p>
+				<h4>50€/photo</h4>
 				<span>2 AR par photo</span>
 			</div>
-		</div>
-		<div class="service">
+		</article>
+		<article class="service">
 			<div class="service__description">
 				<h3>Album photos</h3>
 				<p>Partagez avec vos proches et vos clients les photos des moments partagés ensemble à travers un album photo personnalisé</p>
 			</div>
 			<div class="service__price">
-				<p >400€ album A4</p>
+				<h4>400€ album A4</h4>
 				<span>30 pages recto/verso</span>
 			</div>
-		</div>
+		</article>
 	</div>
-</div>
+</section>
 <div class="quote">
 	<figure>
 		<blockquote>
@@ -184,7 +185,7 @@
 		<figcaption class="quote__author">- Richard Avedon</figcaption>
 	</figure>
 </div>
-<div id="contact">
+<section id="contact">
 	<div class="container">
 		<div class="form-container">
 			<h3>Une question ? Une demande de devis ?</h3>
@@ -203,6 +204,7 @@
 			<img src="./assets/images/camera.webp" width="419" height="418" alt="un appareil-photo" loading="lazy" decoding="async">
 		</div>
 	</div>
-</div>
+</section>
+</main>
 </body>
 </html>
